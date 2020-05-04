@@ -97,3 +97,9 @@ function copyToClipboard(){
   document.getElementById("textarea2").select()
   document.execCommand("Copy")
 }
+
+function tweetresult() {
+  let result = document.getElementById("textarea2")
+  let url = "https://guraidoru.github.io/onanigo/"
+  window.open().location.href = ("https://twitter.com/share?url=" + url + "&text=" + tw_contents + "&count=none&lang=ja")
+}
