@@ -99,7 +99,7 @@ function copyToClipboard(){
 }
 
 function tweetresult() {
-  let result = document.getElementById("textarea2")
+  let tw_contents = document.getElementById("textarea2")
   let url = "https://guraidoru.github.io/onanigo/"
   window.open().location.href = ("https://twitter.com/share?url=" + url + "&text=" + tw_contents + "&count=none&lang=ja")
 }
